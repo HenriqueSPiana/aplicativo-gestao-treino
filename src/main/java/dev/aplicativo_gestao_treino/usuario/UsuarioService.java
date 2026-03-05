@@ -20,8 +20,8 @@ public class UsuarioService {
     }
 
 
-    //listar
-    public Page<UsuarioDTO> listarUsuarios(String nome, String email, String endereco, Pageable pageable)
+    //buscar
+    public Page<UsuarioDTO> buscarUsuario(String nome, String email, Pageable pageable)
     {
         Page<UsuarioModel> usuario = usuarioRepository.findUsuarioComFiltro(nome, email, pageable);
         return usuario.map(usuarioMapper::toDTO);
@@ -29,7 +29,7 @@ public class UsuarioService {
 
 
     //buscar por id
-    public UsuarioDTO buscarPorid(Long id){
+    public UsuarioDTO buscarUsuarioPorid(Long id){
 
         Optional<UsuarioModel> usuario = usuarioRepository.findById(id);
         return usuario.map(usuarioMapper::toDTO).orElse(null);
@@ -37,7 +37,7 @@ public class UsuarioService {
     }
 
 
-
+    //criar
     public UsuarioDTO criarUsuario(UsuarioDTO usuarioDTO){
         UsuarioModel usuario = usuarioMapper.toModel(usuarioDTO);
         usuarioRepository.save(usuario);
