@@ -1,0 +1,8 @@
+/home/hpiana/Documentos/git/aplicativo-gestao-treino/src/main/java/dev/aplicativo_gestao_treino/AplicativoGestaoTreinoApplication.java
+/home/hpiana/Documentos/git/aplicativo-gestao-treino/src/main/java/dev/aplicativo_gestao_treino/core/dto/PageResponseDTO.java
+/home/hpiana/Documentos/git/aplicativo-gestao-treino/src/main/java/dev/aplicativo_gestao_treino/usuario/UsuarioController.java
+/home/hpiana/Documentos/git/aplicativo-gestao-treino/src/main/java/dev/aplicativo_gestao_treino/usuario/UsuarioDTO.java
+/home/hpiana/Documentos/git/aplicativo-gestao-treino/src/main/java/dev/aplicativo_gestao_treino/usuario/UsuarioMapper.java
+/home/hpiana/Documentos/git/aplicativo-gestao-treino/src/main/java/dev/aplicativo_gestao_treino/usuario/UsuarioModel.java
+/home/hpiana/Documentos/git/aplicativo-gestao-treino/src/main/java/dev/aplicativo_gestao_treino/usuario/UsuarioRepository.java
+/home/hpiana/Documentos/git/aplicativo-gestao-treino/src/main/java/dev/aplicativo_gestao_treino/usuario/UsuarioService.java
