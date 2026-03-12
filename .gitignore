@@ -3,7 +3,6 @@
 .env
 # Log file
 *.log
-
 # BlueJ files
 *.ctxt
 
@@ -22,3 +21,6 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignorar credenciais locais do Liquibase
+src/main/resources/liquibase.properties
