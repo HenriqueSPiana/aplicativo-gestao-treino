@@ -1,9 +1,9 @@
 dev/aplicativo_gestao_treino/usuario/UsuarioMapperImpl.class
-dev/aplicativo_gestao_treino/AplicativoGestaoTreinoApplication.class
-dev/aplicativo_gestao_treino/usuario/UsuarioMapper.class
 dev/aplicativo_gestao_treino/usuario/UsuarioModel.class
 dev/aplicativo_gestao_treino/usuario/UsuarioService.class
-dev/aplicativo_gestao_treino/core/dto/PageResponseDTO.class
 dev/aplicativo_gestao_treino/usuario/UsuarioController.class
 dev/aplicativo_gestao_treino/usuario/UsuarioDTO.class
 dev/aplicativo_gestao_treino/usuario/UsuarioRepository.class
+dev/aplicativo_gestao_treino/AplicativoGestaoTreinoApplication.class
+dev/aplicativo_gestao_treino/usuario/UsuarioMapper.class
+dev/aplicativo_gestao_treino/core/dto/PageResponseDTO.class
